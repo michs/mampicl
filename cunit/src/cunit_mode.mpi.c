@@ -1,6 +1,7 @@
 /*
  *  CUnit - A Unit testing framework library for C.
  *  Copyright (C) 2004-2006  Jerry St.Clair, Anil Kumar
+ *  Copyright (C) 2014 Michael Schliephake
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Library General Public
@@ -21,12 +22,11 @@
  *  Implementation for basic test runner interface.
  *
  *  11-Aug-2004   Initial implementation of basic test runner interface.  (JDS)
- *
  *  8-Jan-2005    Fixed reporting bug (bug report cunit-Bugs-1093861).  (JDS)
- *
  *  30-Apr-2005   Added notification of suite cleanup failure.  (JDS)
- *
  *  02-May-2006   Added internationalization hooks.  (JDS)
+ *
+ *  Jan 2014      Adaptation for MPI (michs) 
  */
 
 /** @file
