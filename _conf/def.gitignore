@@ -23,6 +23,7 @@
 *.hex
 
 .gitignore
+custom.mk
 
 commprim/release/
 crystal/release/
